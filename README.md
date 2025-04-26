@@ -28,3 +28,13 @@ chmod +x main.py
 python main.py [options]
 ```
 
+## ⚙️ Options
+
+- `-l, --length`: Password length (default: 12)
+- `--no-upper`: Don't include uppercase letters
+- `--no-lower`: Don't include lowercase letters
+- `--no-digits`: Don't include digits
+- `--no-symbols`: Don't include symbols
+- `--no-similar`: Don't include similar characters (Il1O0o)
+- `-c, --count`: Number of passwords to generate (default: 1)
+
