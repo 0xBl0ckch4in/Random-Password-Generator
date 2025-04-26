@@ -13,7 +13,7 @@ A simple command-line tool to generate secure random passwords.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/password-generator.git
+git clone https://github.com/0xBl0ckch4in/password-generator.git
 cd password-generator
 ```
 
