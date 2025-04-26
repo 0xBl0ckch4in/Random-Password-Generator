@@ -45,3 +45,28 @@ python main.py [options]
 python main.py
 ```
 
+### Generate a longer password (16 characters):
+```bash
+python main.py -l 16
+```
+
+### Generate a PIN (digits only):
+```bash
+python main.py -l 6 --no-upper --no-lower --no-symbols
+```
+
+### Generate a password without symbols:
+```bash
+python main.py --no-symbols
+```
+
+### Generate a password without similar-looking characters:
+```bash
+python main.py --no-similar
+```
+
+### Generate multiple passwords:
+```bash
+python main.py -c 5
+```
+
