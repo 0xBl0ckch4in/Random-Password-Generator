@@ -38,3 +38,10 @@ python main.py [options]
 - `--no-similar`: Don't include similar characters (Il1O0o)
 - `-c, --count`: Number of passwords to generate (default: 1)
 
+## 📝 Examples
+
+### Generate a default password (12 characters with all character types):
+```bash
+python main.py
+```
+
